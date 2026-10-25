@@ -1,12 +1,12 @@
 [
   {
     "city": "Сочи · Эстосадок",
-    "about": "Высокогорное катание, прогулки и отели в долине и на плато. Начни с официальной схемы, затем собери свой маршрут и проживание.",
+    "about": "Высокогорный курорт в Эстосадке. На странице трасс курорт указывает 105 км спусков и перепад 1 569 м. Проживание можно выбрать в долине или Горной Олимпийской деревне.",
     "site": "https://rosakhutor.ru/",
     "map": "https://rosakhutor.ru/maps/",
     "cameras": "https://rosakhutor.ru/about/webcams/",
-    "tickets": "https://rosakhutor.ru/",
-    "rent": "https://rosakhutor.ru/",
+    "tickets": "https://rosakhutor.ru/ski-pass/",
+    "rent": "https://rosakhutor.ru/rent-winter/",
     "stay": "https://rosakhutor.ru/hotels",
     "photos": [
       {
@@ -34,19 +34,90 @@
     ],
     "name": "Роза Хутор",
     "region": "Сочи",
-    "description": "Большие горы и снежные панорамы. Для поездки, которой хочется дать ещё один день.",
+    "description": "Высокогорные спуски, школа катания и отели в долине и горах.",
     "id": "rosa",
     "terrain": true,
-    "cover": "photos/rosa.webp"
+    "cover": "photos/rosa.webp",
+    "contacts": "https://rosakhutor.ru/contacts",
+    "access": "https://rosakhutor.ru/about/how-to-get/",
+    "school": "https://rosakhutor.ru/ski-school",
+    "sourceLabel": "Сайт курорта",
+    "address": "Сочи, Эстосадок, ул. Олимпийская, 35",
+    "phone": "8 800 5000 555",
+    "tel": "+78005000555",
+    "facts": [
+      {
+        "value": "105 км",
+        "label": "протяжённость трасс",
+        "source": "https://rosakhutor.ru/skiing/trails/"
+      },
+      {
+        "value": "1 569 м",
+        "label": "перепад на трассах",
+        "source": "https://rosakhutor.ru/skiing/trails/"
+      },
+      {
+        "value": "Сочи",
+        "label": "регион",
+        "source": "https://rosakhutor.ru/contacts"
+      }
+    ],
+    "tags": [
+      "Горнолыжная школа",
+      "Прокат",
+      "Отели",
+      "Веб-камеры"
+    ],
+    "guide": [
+      {
+        "title": "Как добраться",
+        "text": "Через Сочи и Адлер: дальше автомобиль или общественный транспорт в горный кластер. В официальном разделе собраны варианты проезда; расписание проверь перед выездом.",
+        "source": "https://rosakhutor.ru/about/how-to-get/"
+      },
+      {
+        "title": "Ски-пасс: что выбрать",
+        "text": "На сайте можно подобрать абонемент по датам, количеству дней и составу гостей. После оплаты курорт отправляет электронный ваучер.",
+        "source": "https://rosakhutor.ru/ski-pass/"
+      },
+      {
+        "title": "Где взять экипировку",
+        "text": "Пункты проката находятся в Роза Долине и Горной Олимпийской деревне, в том числе у подъёмников и в отелях. Доступность комплекта выбирается по датам.",
+        "source": "https://rosakhutor.ru/what-to-do/gornolyzhnyy-prokat/"
+      },
+      {
+        "title": "Первый день на лыжах",
+        "text": "Школа курорта предлагает индивидуальные и групповые занятия, взрослые и детские программы. Уровень и программу выбирай вместе со школой.",
+        "source": "https://rosakhutor.ru/ski-school"
+      },
+      {
+        "title": "Перед выходом на склон",
+        "text": "Проверь официальную схему и камеры: общий километраж не означает, что все трассы открыты в день поездки.",
+        "source": "https://rosakhutor.ru/maps/"
+      }
+    ],
+    "checkedAt": "2026-10-25",
+    "affiliate": {
+      "status": "not_connected",
+      "offer": null
+    },
+    "sources": [
+      "https://rosakhutor.ru/skiing/trails/",
+      "https://rosakhutor.ru/contacts",
+      "https://rosakhutor.ru/about/how-to-get/",
+      "https://rosakhutor.ru/ski-pass/",
+      "https://rosakhutor.ru/what-to-do/gornolyzhnyy-prokat/",
+      "https://rosakhutor.ru/ski-school",
+      "https://rosakhutor.ru/maps/"
+    ]
   },
   {
     "city": "Сочи · Эстосадок",
-    "about": "Горный курорт с прогулочными маршрутами, канатными дорогами и отелями на разных высотах. Выбирай склон, отдых и компанию в одном месте.",
+    "about": "Курорт на склонах Аибги с проживанием на уровнях Поляна 540 и Поляна 960. На официальной странице указаны 30 км горнолыжных трасс и 15 канатных дорог.",
     "site": "https://krasnayapolyanaresort.ru/",
     "map": "https://krasnayapolyanaresort.ru/map",
     "cameras": "https://krasnayapolyanaresort.ru/webcams",
     "tickets": "https://krasnayapolyanaresort.ru/lifts",
-    "rent": "https://krasnayapolyanaresort.ru/",
+    "rent": "https://prokat.krasnayapolyanaresort.ru/",
     "stay": "https://krasnayapolyanaresort.ru/hotels",
     "photos": [
       {
@@ -86,14 +157,84 @@
     ],
     "name": "Красная Поляна",
     "region": "Сочи",
-    "description": "Скальные вершины, канатные дороги и отели на разных высотах.",
+    "description": "Горнолыжные трассы и проживание на уровнях 540 и 960.",
     "id": "polyana",
     "terrain": true,
-    "cover": "photos/polyana-slope.webp"
+    "cover": "photos/polyana-slope.webp",
+    "contacts": "https://krasnayapolyanaresort.ru/about/contact",
+    "access": "https://krasnayapolyanaresort.ru/about/contact",
+    "school": "https://krasnayapolyanaresort.ru/kurort/uslugi/instructors/",
+    "sourceLabel": "Сайт курорта",
+    "address": "Сочи, ул. Горная Карусель, 5",
+    "phone": "8 800 550 20 20",
+    "tel": "+78005502020",
+    "facts": [
+      {
+        "value": "30 км",
+        "label": "горнолыжных трасс",
+        "source": "https://krasnayapolyanaresort.ru/about"
+      },
+      {
+        "value": "15",
+        "label": "канатных дорог",
+        "source": "https://krasnayapolyanaresort.ru/about"
+      },
+      {
+        "value": "540 / 960 м",
+        "label": "уровни проживания",
+        "source": "https://krasnayapolyanaresort.ru/about"
+      }
+    ],
+    "tags": [
+      "Школа катания",
+      "Прокат",
+      "Отели и апартаменты",
+      "Веб-камеры"
+    ],
+    "guide": [
+      {
+        "title": "Где остановиться",
+        "text": "Отели и апартаменты расположены на разных высотах. Выбирай размещение по нужному уровню курорта и доступу к канатной дороге.",
+        "source": "https://krasnayapolyanaresort.ru/hotels"
+      },
+      {
+        "title": "Как добраться",
+        "text": "Адрес курорта — ул. Горная Карусель, 5. На странице контактов есть маршруты на автомобиле, такси, поезде и автобусе.",
+        "source": "https://krasnayapolyanaresort.ru/about/contact"
+      },
+      {
+        "title": "Прокат «Три вершины»",
+        "text": "У официального проката есть подбор лыж и сноубордов, онлайн-заказ и камера хранения. Правила выдачи и время возврата — на странице проката.",
+        "source": "https://prokat.krasnayapolyanaresort.ru/"
+      },
+      {
+        "title": "Обучение катанию",
+        "text": "Школа «Три вершины» предлагает индивидуальные и групповые программы. Сначала уточни уровень, возраст участников и актуальные даты сезона.",
+        "source": "https://krasnayapolyanaresort.ru/kurort/uslugi/instructors/"
+      },
+      {
+        "title": "Что проверить перед подъёмом",
+        "text": "Плановые работы и погода могут менять работу канатных дорог. Проверь страницу подъёмников и веб-камеры в день поездки.",
+        "source": "https://krasnayapolyanaresort.ru/lifts"
+      }
+    ],
+    "checkedAt": "2026-10-25",
+    "affiliate": {
+      "status": "not_connected",
+      "offer": null
+    },
+    "sources": [
+      "https://krasnayapolyanaresort.ru/about",
+      "https://krasnayapolyanaresort.ru/hotels",
+      "https://krasnayapolyanaresort.ru/about/contact",
+      "https://prokat.krasnayapolyanaresort.ru/",
+      "https://krasnayapolyanaresort.ru/kurort/uslugi/instructors/",
+      "https://krasnayapolyanaresort.ru/lifts"
+    ]
   },
   {
     "city": "Подмосковье · Курово",
-    "about": "Ближнее направление для дня на снегу. Просмотри зимние фотографии, уточни режим работы и тарифы перед поездкой.",
+    "about": "Склоны у деревни Курово в Подмосковье. Курорт указывает 10 трасс, детский учебный склон, кресельные и бугельные подъёмники. Есть прокат и варианты проживания рядом.",
     "site": "https://sorochany.ru/",
     "map": "https://sorochany.ru/map",
     "cameras": "https://sorochany.ru/webcamera",
@@ -143,14 +284,84 @@
     ],
     "name": "Сорочаны",
     "region": "Подмосковье",
-    "description": "За снегом на один день. Лесные склоны недалеко от Москвы.",
+    "description": "День на склоне рядом с Москвой: прокат, учебная зона и подъёмники.",
     "id": "sorochany",
     "terrain": true,
-    "cover": "photos/sorochany.webp"
+    "cover": "photos/sorochany.webp",
+    "contacts": "https://sorochany.ru/pages/o-kurorte/kontakty",
+    "access": "https://sorochany.ru/pages/o-kurorte/kak-dobratsia",
+    "hours": "https://sorochany.ru/pages/Rezhim-raboty-kurorta",
+    "food": "https://cafe.sorochany.ru",
+    "sourceLabel": "Сайт курорта",
+    "address": "Московская область, Дмитровский округ, деревня Курово, 68",
+    "phone": "+7 (495) 788-85-44",
+    "tel": "+74957888544",
+    "facts": [
+      {
+        "value": "10",
+        "label": "трасс",
+        "source": "https://sorochany.ru/pages/o-kurorte"
+      },
+      {
+        "value": "до 90 м",
+        "label": "перепад высот",
+        "source": "https://sorochany.ru/pages/o-kurorte"
+      },
+      {
+        "value": "до 1 050 м",
+        "label": "длина спуска",
+        "source": "https://sorochany.ru/pages/o-kurorte"
+      }
+    ],
+    "tags": [
+      "Учебный склон",
+      "Прокат",
+      "Рестораны",
+      "Кресельные подъёмники"
+    ],
+    "guide": [
+      {
+        "title": "Как добраться из Москвы",
+        "text": "На автомобиле — по Дмитровскому шоссе. Общественным транспортом — через станции Яхрома или Дмитров и далее к Курово; актуальную пересадку уточни в схеме проезда.",
+        "source": "https://sorochany.ru/pages/o-kurorte/kak-dobratsia"
+      },
+      {
+        "title": "Подъёмники и учебный склон",
+        "text": "В описании курорта указаны двух- и четырёхместные кресельные дороги, три бугельных подъёмника и беби-лифт. Для обучения есть детский склон.",
+        "source": "https://sorochany.ru/pages/o-kurorte"
+      },
+      {
+        "title": "Прокат на месте",
+        "text": "До поездки посмотри тарифы оборудования, требования к залогу и правила возврата. Стоимость подъёмов и аренды проверяется отдельно.",
+        "source": "https://sorochany.ru/pages/tarifi/Tarify-na-polzovanie-oborudovaniem-punkta-prokata"
+      },
+      {
+        "title": "Где остановиться и поесть",
+        "text": "Сайт курорта направляет гостей в гостиничный комплекс «Ирий» и службу питания «Альянс Сорочаны». Наличие номеров и столиков уточняется у поставщика.",
+        "source": "https://sorochany.ru/pages/o-kurorte/kontakty"
+      },
+      {
+        "title": "Время работы",
+        "text": "У зимних склонов, летней зоны и проката разные режимы. Смотри раздел нужного сезона перед выездом.",
+        "source": "https://sorochany.ru/pages/Rezhim-raboty-kurorta"
+      }
+    ],
+    "checkedAt": "2026-10-25",
+    "affiliate": {
+      "status": "not_connected",
+      "offer": null
+    },
+    "sources": [
+      "https://sorochany.ru/pages/o-kurorte",
+      "https://sorochany.ru/pages/o-kurorte/kak-dobratsia",
+      "https://sorochany.ru/pages/tarifi/Tarify-na-polzovanie-oborudovaniem-punkta-prokata",
+      "https://sorochany.ru/pages/o-kurorte/kontakty",
+      "https://sorochany.ru/pages/Rezhim-raboty-kurorta"
+    ]
   },
   {
     "city": "Кемеровская область · Шерегеш",
-    "about": "Сибирское направление с несколькими секторами и операторами. Уточняй условия каждого подъёмника отдельно, а проживание выбирай под свой план катания.",
+    "about": "Горное направление в Кузбассе с несколькими секторами и операторами подъёмников. Планируй жильё, трансфер и ски-пасс под выбранный сектор: условия у операторов отличаются.",
     "site": "https://sheregesh.com/",
     "map": "https://sheregesh.su/maps",
     "cameras": "https://sheregesh.com/cams",
@@ -182,14 +393,79 @@
     ],
     "name": "Шерегеш",
     "region": "Сибирь",
-    "description": "Сибирские пейзажи и целое путешествие вокруг катания.",
+    "description": "Сибирские горы. Выбирай сектор, жильё и путь к подъёмнику.",
     "id": "sheregesh",
     "terrain": true,
-    "cover": "photos/sheregesh.webp"
+    "cover": "photos/sheregesh.webp",
+    "access": "https://sheregesh.com/pathway",
+    "contacts": "https://sheregesh.com/",
+    "status": "https://egegesh.ru/info",
+    "sourceLabel": "Туристический портал направления",
+    "address": "Кемеровская область — Кузбасс, посёлок Шерегеш",
+    "phone": "+7 (960) 901-18-87",
+    "tel": "+79609011887",
+    "contactNote": "Информационный портал Sheregesh.com",
+    "facts": [
+      {
+        "value": "Несколько",
+        "label": "операторов подъёмников",
+        "source": "https://egegesh.ru/info"
+      },
+      {
+        "value": "Новокузнецк",
+        "label": "один из путей к курорту",
+        "source": "https://sheregesh.com/pathway"
+      }
+    ],
+    "tags": [
+      "Несколько секторов",
+      "Каталог проживания",
+      "Камеры",
+      "Трансфер"
+    ],
+    "guide": [
+      {
+        "title": "Как добраться",
+        "text": "Один из основных вариантов — через Новокузнецк, затем трансфер или автобус в сторону Шерегеша. Время в дороге зависит от погоды и выбранного маршрута.",
+        "source": "https://sheregesh.com/pathway"
+      },
+      {
+        "title": "Ски-пасс и сектора",
+        "text": "Перед покупкой уточни список подъёмников, на которых действует выбранный билет. В Шерегеше работают разные операторы.",
+        "source": "https://sheregesh.com/skipass"
+      },
+      {
+        "title": "Как выбрать проживание",
+        "text": "Сначала определи сектор катания, затем сравни расположение жилья и путь до подъёмника. На портале направления есть каталог размещения.",
+        "source": "https://sheregesh.com/dorm"
+      },
+      {
+        "title": "Камеры и состояние подъёмников",
+        "text": "Сервис EgeGesh показывает камеры и информацию по операторам. Данные смотри непосредственно в источнике: SnowWow не получает поток статусов.",
+        "source": "https://egegesh.ru/info"
+      },
+      {
+        "title": "Прокат и занятия",
+        "text": "Выбирай пункт проката и инструктора рядом с выбранным сектором. Инфоцентр направления поможет уточнить доступные услуги.",
+        "source": "https://sheregesh.com/"
+      }
+    ],
+    "checkedAt": "2026-10-25",
+    "affiliate": {
+      "status": "not_connected",
+      "offer": null
+    },
+    "sources": [
+      "https://egegesh.ru/info",
+      "https://sheregesh.com/pathway",
+      "https://sheregesh.com/skipass",
+      "https://sheregesh.com/dorm",
+      "https://sheregesh.com/"
+    ]
   },
   {
     "city": "Подмосковье · Яхрома",
-    "about": "Курорт для короткого путешествия из города. Катание, проживание и отдых планируются отдельно: наличие и зимний режим уточняй у поставщика.",
+    "about": "Всесезонный курорт Волен–Степаново в Подмосковье. Здесь можно совместить короткий выезд с проживанием в гостинице или домиках; зимние услуги и работу склонов уточняй перед поездкой.",
     "site": "https://volen.ru/",
     "map": "https://volen.ru/about_the_park/",
     "cameras": "https://volen.ru/live",
@@ -222,9 +498,65 @@
     ],
     "name": "Волен",
     "region": "Подмосковье",
-    "description": "Короткий выезд с ночёвкой в альпийской атмосфере.",
+    "description": "Выезд в Подмосковье с гостиницей, коттеджами и отдыхом после катания.",
     "id": "volen",
     "terrain": false,
-    "cover": "photos/volen.webp"
+    "cover": "photos/volen.webp",
+    "access": "https://volen.ru/about_the_park/",
+    "contacts": "https://volen.ru/about_the_park/",
+    "sourceLabel": "Сайт курорта",
+    "address": "Московская область, Яхрома, ул. Троицкая, 1",
+    "phone": "+7 (495) 161-61-30",
+    "tel": "+74951616130",
+    "facts": [
+      {
+        "value": "Яхрома",
+        "label": "город рядом с курортом",
+        "source": "https://volen.ru/about_the_park/"
+      },
+      {
+        "value": "2",
+        "label": "локации: Волен и Степаново",
+        "source": "https://volen.ru/about_the_park/"
+      }
+    ],
+    "tags": [
+      "Гостиница и коттеджи",
+      "Рестораны",
+      "Прокат",
+      "Семейный отдых"
+    ],
+    "guide": [
+      {
+        "title": "Как добраться",
+        "text": "На машине — по Дмитровскому шоссе, далее по указателям на Волен или Степаново. Поездом — до Яхромы или Дмитрова, затем местный транспорт или такси.",
+        "source": "https://volen.ru/about_the_park/"
+      },
+      {
+        "title": "Где жить",
+        "text": "На территории есть гостиница, русские домики и альпийские коттеджи. Категорию, состав гостей и доступность на даты проверяй при выборе.",
+        "source": "https://volen.ru/"
+      },
+      {
+        "title": "После катания",
+        "text": "На схеме курорта отмечены рестораны, баня и другие зоны отдыха. Доступность развлечений зависит от сезона.",
+        "source": "https://volen.ru/about_the_park/"
+      },
+      {
+        "title": "Прокат и цены",
+        "text": "На сайте есть отдельные цены проката. Проверь, что выбранное оборудование и тариф относятся к нужному сезону.",
+        "source": "https://volen.ru/rental_prices"
+      }
+    ],
+    "checkedAt": "2026-10-25",
+    "affiliate": {
+      "status": "not_connected",
+      "offer": null
+    },
+    "sources": [
+      "https://volen.ru/about_the_park/",
+      "https://volen.ru/",
+      "https://volen.ru/rental_prices"
+    ]
   }
 ]

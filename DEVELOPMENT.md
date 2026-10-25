@@ -45,3 +45,11 @@ API-контракт: GET /resorts, GET /resorts/:id; GET/POST /me/trips, PATCH/
 Обновление: отдельная вкладка знакомств с локальной анкетой 18+, установка в шапке, единая кнопка оформления 3D для всех сцен, ещё три проверенных фотографии из официальной зимней галереи Сорочан. Анкеты не публикуются; подбор и доставка сообщений не подключены.
 
 Добавлены карусель проверенных ссылок на предложения поставщиков (с автоматическим скрытием сезонной карточки после окончания), партнёрский рекламный блок и полный футер. Платные размещения не заявлены как уже проданные. Источники: go.rosakhutor.ru/rosabonus, rosakhutor.ru/promotions/kanikuly-na-roza-khutor/, официальные спецпредложения Radisson и Rosa Springs.
+
+## 2026-10-25 — readable interface and resort guides
+- Replaced layered shrinking typography with a single responsive stylesheet. Body/forms 16px, actions 14–16px, larger headings; wrapping and intrinsic heights replace clipped/fixed text areas.
+- Home quick actions: resort search, recording, offers, dating. Mobile bottom navigation retains five sections; saved resorts available in profile/catalog.
+- Rebuilt 3D stage structure: title, viewport, viewpoints and actions occupy separate flow rows. Snow/no-snow coloring now affects every scene.
+- Expanded all five resorts: sourced facts, 24 guide entries, contacts/access, specific service destinations, review dates. Commercial links use public campaign UTM tags; no personal data or conversion tracking.
+- Referral module refuses expired, future, unconfirmed or malformed promotions; no partner is marked active. Proposal and competitor review: MARKET_AND_PARTNERS.md.
+- Nine Node tests pass (five GPS, four referral/catalog). Syntax checks pass. Actual phone GPS and WebGL remain unverified; cloud browser uses the Canvas renderer.
