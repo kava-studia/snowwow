@@ -1,0 +1,212 @@
+[
+  {
+    "city": "Сочи · Эстосадок",
+    "about": "Высокогорное катание, прогулки и отели в долине и на плато. Начни с официальной схемы, затем собери свой маршрут и проживание.",
+    "site": "https://rosakhutor.ru/",
+    "map": "https://rosakhutor.ru/maps/",
+    "cameras": "https://rosakhutor.ru/about/webcams/",
+    "tickets": "https://rosakhutor.ru/",
+    "rent": "https://rosakhutor.ru/",
+    "stay": "https://rosakhutor.ru/hotels",
+    "photos": [
+      {
+        "file": "photos/rosa.webp",
+        "label": "Снежный склон и подъёмник",
+        "type": "Трассы",
+        "source": "https://rosakhutor.ru/maps/"
+      }
+    ],
+    "hotels": [
+      {
+        "name": "Radisson Роза Хутор",
+        "description": "В долине курорта. Условия и наличие - у отеля.",
+        "url": "https://www.radissonhotels.com/ru-ru/hotels/radisson-rosa-khutor",
+        "photo": "photos/rosa.webp",
+        "photoNote": "Вид курорта, не фотография номера"
+      },
+      {
+        "name": "Отели Роза Хутор",
+        "description": "Официальный каталог вариантов проживания.",
+        "url": "https://rosakhutor.ru/hotels",
+        "photo": "photos/rosa.webp",
+        "photoNote": "Вид курорта"
+      }
+    ],
+    "name": "Роза Хутор",
+    "region": "Сочи",
+    "description": "Большие горы и снежные панорамы. Для поездки, которой хочется дать ещё один день.",
+    "id": "rosa",
+    "terrain": true,
+    "cover": "photos/rosa.webp"
+  },
+  {
+    "city": "Сочи · Эстосадок",
+    "about": "Горный курорт с прогулочными маршрутами, канатными дорогами и отелями на разных высотах. Выбирай склон, отдых и компанию в одном месте.",
+    "site": "https://krasnayapolyanaresort.ru/",
+    "map": "https://krasnayapolyanaresort.ru/map",
+    "cameras": "https://krasnayapolyanaresort.ru/webcams",
+    "tickets": "https://krasnayapolyanaresort.ru/lifts",
+    "rent": "https://krasnayapolyanaresort.ru/",
+    "stay": "https://krasnayapolyanaresort.ru/hotels",
+    "photos": [
+      {
+        "file": "photos/polyana-slope.webp",
+        "label": "Горный рельеф и канатная дорога",
+        "type": "Горы",
+        "source": "https://krasnayapolyanaresort.ru/"
+      },
+      {
+        "file": "photos/polyana-hill.webp",
+        "label": "Зимнее катание на курорте",
+        "type": "Зима",
+        "source": "https://krasnayapolyanaresort.ru/"
+      },
+      {
+        "file": "photos/polyana.webp",
+        "label": "У отеля Риксос",
+        "type": "Проживание",
+        "source": "https://krasnayapolyanaresort.ru/hotels/rixos-krasnaya-polyana-sochi"
+      }
+    ],
+    "hotels": [
+      {
+        "name": "Риксос Красная Поляна Сочи",
+        "description": "Поляна 960, ул. Созвездий, 3.",
+        "url": "https://krasnayapolyanaresort.ru/hotels/rixos-krasnaya-polyana-sochi",
+        "photo": "photos/polyana.webp",
+        "photoNote": "Фотография с сайта курорта"
+      },
+      {
+        "name": "Отели и апартаменты курорта",
+        "description": "Официальный подбор проживания на высотах 540 и 960.",
+        "url": "https://krasnayapolyanaresort.ru/hotels",
+        "photo": "photos/polyana-slope.webp",
+        "photoNote": "Вид курорта, не фотография номера"
+      }
+    ],
+    "name": "Красная Поляна",
+    "region": "Сочи",
+    "description": "Скальные вершины, канатные дороги и отели на разных высотах.",
+    "id": "polyana",
+    "terrain": true,
+    "cover": "photos/polyana-slope.webp"
+  },
+  {
+    "city": "Подмосковье · Курово",
+    "about": "Ближнее направление для дня на снегу. Просмотри зимние фотографии, уточни режим работы и тарифы перед поездкой.",
+    "site": "https://sorochany.ru/",
+    "map": "https://sorochany.ru/map",
+    "cameras": "https://sorochany.ru/webcamera",
+    "tickets": "https://sorochany.ru/tariffs/view/index",
+    "rent": "https://sorochany.ru/pages/tarifi/Tarify-na-polzovanie-oborudovaniem-punkta-prokata",
+    "stay": "https://iriy-hotel.ru/",
+    "photos": [
+      {
+        "file": "photos/sorochany.webp",
+        "label": "Зимние трассы Сорочан",
+        "type": "Трассы",
+        "source": "https://sorochany.ru/gallery/foto/zima"
+      },
+      {
+        "file": "photos/sorochany2.webp",
+        "label": "Прокат и оборудование",
+        "type": "Прокат",
+        "source": "https://sorochany.ru/gallery/foto/zima"
+      }
+    ],
+    "hotels": [
+      {
+        "name": "Гостиничный комплекс «Ирий»",
+        "description": "Проживание по ссылке с сайта Сорочан.",
+        "url": "https://iriy-hotel.ru/",
+        "photo": "photos/sorochany.webp",
+        "photoNote": "Вид склонов, не фотография гостиницы"
+      }
+    ],
+    "name": "Сорочаны",
+    "region": "Подмосковье",
+    "description": "За снегом на один день. Лесные склоны недалеко от Москвы.",
+    "id": "sorochany",
+    "terrain": true,
+    "cover": "photos/sorochany.webp"
+  },
+  {
+    "city": "Кемеровская область · Шерегеш",
+    "about": "Сибирское направление с несколькими секторами и операторами. Уточняй условия каждого подъёмника отдельно, а проживание выбирай под свой план катания.",
+    "site": "https://sheregesh.com/",
+    "map": "https://sheregesh.su/maps",
+    "cameras": "https://sheregesh.com/cams",
+    "tickets": "https://sheregesh.com/skipass",
+    "rent": "https://sheregesh.com/",
+    "stay": "https://sheregesh.com/dorm",
+    "photos": [
+      {
+        "file": "photos/sheregesh.webp",
+        "label": "Заснеженный пейзаж Шерегеша",
+        "type": "Горы",
+        "source": "https://sheregesh.com/"
+      },
+      {
+        "file": "photos/sheregesh2.webp",
+        "label": "Атмосфера отдыха в Шерегеше",
+        "type": "Атмосфера",
+        "source": "https://sheregesh.com/"
+      }
+    ],
+    "hotels": [
+      {
+        "name": "Проживание в Шерегеше",
+        "description": "Каталог объектов на туристическом сайте направления.",
+        "url": "https://sheregesh.com/dorm",
+        "photo": "photos/sheregesh.webp",
+        "photoNote": "Пейзаж направления, не фотография номера"
+      }
+    ],
+    "name": "Шерегеш",
+    "region": "Сибирь",
+    "description": "Сибирские пейзажи и целое путешествие вокруг катания.",
+    "id": "sheregesh",
+    "terrain": true,
+    "cover": "photos/sheregesh.webp"
+  },
+  {
+    "city": "Подмосковье · Яхрома",
+    "about": "Курорт для короткого путешествия из города. Катание, проживание и отдых планируются отдельно: наличие и зимний режим уточняй у поставщика.",
+    "site": "https://volen.ru/",
+    "map": "https://volen.ru/about_the_park/",
+    "cameras": "https://volen.ru/live",
+    "tickets": "https://volen.ru/",
+    "rent": "https://volen.ru/rental_prices",
+    "stay": "https://volen.ru/",
+    "photos": [
+      {
+        "file": "photos/volen.webp",
+        "label": "Гостиница курорта Волен",
+        "type": "Проживание",
+        "source": "https://volen.ru/"
+      }
+    ],
+    "hotels": [
+      {
+        "name": "Альпийский стандарт · Волен",
+        "description": "Официальная категория проживания курорта.",
+        "url": "https://volen.ru/alpine_standard",
+        "photo": "photos/volen.webp",
+        "photoNote": "Фотография гостиницы, не конкретного номера"
+      },
+      {
+        "name": "Альпийский комфорт · Волен",
+        "description": "Условия размещения и бронирование - на сайте курорта.",
+        "url": "https://volen.ru/alpine_comfort",
+        "photo": "photos/volen.webp",
+        "photoNote": "Фотография гостиницы"
+      }
+    ],
+    "name": "Волен",
+    "region": "Подмосковье",
+    "description": "Короткий выезд с ночёвкой в альпийской атмосфере.",
+    "id": "volen",
+    "terrain": false,
+    "cover": "photos/volen.webp"
+  }
+]
