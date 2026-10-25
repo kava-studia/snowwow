@@ -1,0 +1,4 @@
+const CACHE='snowwow-static-v1';const ASSETS=['style.css','mobile.css','app.js','mobile.js','social.js','social.css','catalog.js','nado.css','slope3d.js','slope3d.css','icon-192.png','icon-512.png'];
+self.addEventListener('install',event=>event.waitUntil(caches.open(CACHE).then(async cache=>{for(const file of ASSETS){const r=await fetch(file);if(r.ok&&!r.redirected)await cache.put(file,r)}})));
+self.addEventListener('activate',event=>event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k.startsWith('kava-static-')&&k!==CACHE).map(k=>caches.delete(k))))));
+self.addEventListener('fetch',event=>{const u=new URL(event.request.url);if(event.request.method!=='GET'||u.origin!==self.location.origin||!ASSETS.some(a=>u.pathname==='/'+a))return;event.respondWith(fetch(event.request).then(r=>{if(r.ok&&!r.redirected){const copy=r.clone();caches.open(CACHE).then(c=>c.put(event.request,copy))}return r}).catch(()=>caches.match(event.request)))});
