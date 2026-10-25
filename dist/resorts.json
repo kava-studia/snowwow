@@ -112,6 +112,24 @@
         "label": "Прокат и оборудование",
         "type": "Прокат",
         "source": "https://sorochany.ru/gallery/foto/zima"
+      },
+      {
+        "file": "photos/sorochany-slope-2.webp",
+        "label": "Общий вид зимних трасс",
+        "type": "Трассы",
+        "source": "https://sorochany.ru/gallery/foto/zima/zima"
+      },
+      {
+        "file": "photos/sorochany-slope-3.webp",
+        "label": "Кресельный подъёмник и склон",
+        "type": "Трассы",
+        "source": "https://sorochany.ru/gallery/foto/zima/zima"
+      },
+      {
+        "file": "photos/sorochany-slope-4.webp",
+        "label": "Катание на подготовленном склоне",
+        "type": "Трассы",
+        "source": "https://sorochany.ru/gallery/foto/zima/zima"
       }
     ],
     "hotels": [
